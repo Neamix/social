@@ -1,0 +1,23 @@
+{
+    "name": "inar/installer",
+    "description": "beta version of inar frame work developed by A.Hussin,A.ahmed,Hadeer Elsayed, Gadaa Adel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Abdalrhman Hussin",
+            "email": "abdalrhmanhussin44@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "core/"
+        },
+        "files": [
+            "files/user.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+      }
+}
